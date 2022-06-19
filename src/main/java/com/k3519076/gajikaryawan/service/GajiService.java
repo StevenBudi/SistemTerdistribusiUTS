@@ -45,9 +45,10 @@ public class GajiService {
         inputData.setFamily(family);
         outputData.setInputData(inputData);
 
-        inputData.setFamily(family*30);
-        inputData.setOvertime(overtime*5);
-        outputData.setAllowance(inputData);
+        gajiInput inputData2 = new gajiInput();
+        inputData2.setFamily(family*30);
+        inputData2.setOvertime(overtime*5);
+        outputData.setAllowance(inputData2);
         return outputData;
     }
 
@@ -60,9 +61,10 @@ public class GajiService {
         inputData.setFamily(family);
         outputData.setInputData(inputData);
 
-        inputData.setFamily(family*30);
-        inputData.setOvertime(overtime*4);
-        outputData.setAllowance(inputData);
+        gajiInput inputData2 = new gajiInput();
+        inputData2.setFamily(family*30);
+        inputData2.setOvertime(overtime*4);
+        outputData.setAllowance(inputData2);
         return outputData;
     }
 }
